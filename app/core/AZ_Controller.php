@@ -67,8 +67,8 @@ class AZ_Controller extends CI_Controller{
 	 */
 	public function sendSMS($mobile, $msg, $needstatus = 'true') {
 		$url='http://smssh1.253.com/msg/send/json';
-		$account='N4024710';
-		$password='UgdC0e7VInc20c';
+		$account='N2754133';
+		$password='e3rpRZuvDab4e8';
 		//创蓝接口参数
 		$postArr = array (
 			'account'  => $account,

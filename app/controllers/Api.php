@@ -155,7 +155,7 @@ class Api extends AZ_Controller
         $data['type']=$type;
 
         
-        $result=$this->sendSMS($mobile,'【板凳借钱】您好，您正在板凳借钱平台操作，本次验证码是'.$rand.'，5分钟有效。如非本人操作请忽略！');
+        $result=$this->sendSMS($mobile,'【借多多】您好，您正在板凳借钱平台操作，本次验证码是'.$rand.'，5分钟有效。如非本人操作请忽略！');
 
         if(!is_null(json_decode($result))){
             $output=json_decode($result,true);

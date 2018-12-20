@@ -62,10 +62,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'	=> '',
-    'hostname' => '127.0.0.1',
-    'username' => 'root',
-    'password' => 'ckliang',
-    'database' => 'jiujisheapp',
+    'hostname' => '120.76.25.55',
+    'username' => 'jiedodo',
+    'password' => 'jiddodo_!@#2018',
+    'database' => 'jiddodo_pro',
     'dbdriver' => 'mysqli',
     'dbprefix' => 'tbl_',
     'pconnect' => FALSE,
